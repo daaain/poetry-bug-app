@@ -1,0 +1,9 @@
+[tool.poetry]
+name = "poetry-bug-app"
+version = "1.0.0"
+description = "Poetry bug app"
+authors = ["Daniel Demmel <dain@beryl.cc>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+poetry-bug-test = {git =  "https://github.com/daaain/poetry-bug-test.git", branch = "master"}
